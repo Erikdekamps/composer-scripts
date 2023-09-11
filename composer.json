@@ -1,0 +1,6 @@
+{
+    "name": "erikdekamps/composer-scripts",
+    "type": "composer-plugin",
+    "license": "WTFPL",
+    "require": {}
+}
