@@ -2,5 +2,19 @@
     "name": "erikdekamps/composer-scripts",
     "type": "composer-testing",
     "license": "WTFPL",
-    "require": {}
+    "require": {},
+    "extra": {
+        "drupal-scaffold": {
+            "file-mapping": {
+                "[project-root]/.ddev/docker-composer.development.yml": "assets/scaffold/files/ddev.docker-composer.development.yml",
+                "[project-root]/.ddev/example.config.local.yaml": "assets/scaffold/files/ddev.example.config.local.yaml",
+                "[project-root]/.ddev/commands/host/login": "assets/scaffold/files/ddev.host.login",
+                "[project-root]/.ddev/commands/web/rebuild": "assets/scaffold/files/ddev.web.rebuild",
+                "[project-root]/.ddev/commands/web/yarn-build-profile": "assets/scaffold/files/ddev.yarn-build-profile",
+                "[project-root]/.ddev/commands/web/yarn-build-theme": "assets/scaffold/files/ddev.yarn-build-theme",
+                "[project-root]/README.md": "assets/scaffold/files/project.README.md",
+                "[project-root]/setup": "assets/scaffold/files/scripts.setup-subsite"
+            }
+        }
+    }
 }
